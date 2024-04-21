@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Title</title>
+  <link href="style.css" rel="stylesheet" type="text/css" >
+  <link     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">CharityCompass</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="causes.html">Causes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="cause_div" style="display: flex; height: 350px; margin: 30px; background-color: rgb(212, 212, 212);">
+    <div class="cause_img" style="height: 350px; width: 350px; background: url(animalwelfare.jpeg) no-repeat;"></div>
+    <div style="flex: 1; padding: 20px;">
+        <h3 style="color: black;">Animal Welfare</h3>
+        <p style="color: black;">animal welfare focuses on the ethical treatment and well-being of animals, encompassing their physical, mental, and emotional health</p>
+        <button onclick="openAnimalWelfare()" class="btn btn-secondary btn-lg">Open Info</button>
+    </div>
+</div>
+
+<div class="cause_div" style="display: flex; height: 350px; margin: 30px; background-color: rgb(212, 212, 212);">
+    <div class="cause_img" style="height: 350px; width: 350px; background: url(orphanage.jpeg) no-repeat;"></div>
+    <div style="flex: 1; padding: 20px;">
+        <h3 style="color: black;">Orphanages</h3>
+        <p style="color: black;">Orphanages provide temporary housing for those who do not possess guardians or anyone able to provide for them, while caring for their overall well-being</p>
+        <button onclick="openOrphanage()" class="btn btn-secondary btn-lg">Open Info</button>
+    </div>
+</div>
+
+<div class="cause_div" style="display: flex; height: 350px; margin: 30px; background-color: rgb(212, 212, 212);">
+    <div class="cause_img" style="height: 350px; width: 350px; background: url(Homelessness.jpg) no-repeat; "></div>
+    <div style="flex: 1; padding: 20px;">
+        <h3 style="color: black;">Homelessness</h3>
+        <p style="color: black;">Homelessness is characterized by the social issue causing lack of stable, safe, and adequate housing, caused by factors such as unemployment, poverty, etc.        </p>
+        <button onclick="openHomelessness()" class="btn btn-secondary btn-lg">Open Info</button>
+    </div>
+</div>
+
+<div class="cause_div" style="display: flex; height: 350px; margin: 30px; background-color: rgb(212, 212, 212);">
+    <div class="cause_img" style="height: 350px; width: 350px; background: url(environment.jpg) no-repeat;"></div>
+    <div style="flex: 1; padding: 20px;">
+        <h3 style="color: black;">Environmental protection</h3>
+        <p style="color: black;">Environmental protection involves the preservation of natural resources and ecosystems through policies and sustainable practices to diminish the negative impacts of human activities on this planet         </p>
+        <button onclick="openEnvironment()" class="btn btn-secondary btn-lg">Open Info</button>
+    </div>
+</div>
+
+<div class="cause_div" style="display: flex; height: 350px; margin: 30px; background-color: rgb(212, 212, 212);">
+    <div class="cause_img" style="height: 350px; width: 350px; background: url(poverty.jpeg) no-repeat;"></div>
+    <div style="flex: 1; padding: 20px;">
+        <h3 style="color: black;">Poverty</h3>
+        <p style="color: black;">Poverty is a widespread socioeconomic problem characterized by the lack of resources and opportunities necessary for the decent standard of living.        </p>
+        <button onclick="openPoverty()" class="btn btn-secondary btn-lg">Open Info</button>
+    </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

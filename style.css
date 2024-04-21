@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#heading {
+  height: 300px;
+  background: url(background.jpg) no-repeat;
+  background-color: antiquewhite;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-content: center;
+}
+.logo-image-div
+{
+  justify-content: center;
+  align-content: center;
+}
+#logo-image{
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+}
+.info
+{
+  margin: 20px;
+  color: slategray;
+  align-content: center;
+  justify-content: center;
+}
+.cause_img{
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-content: center;
+}
