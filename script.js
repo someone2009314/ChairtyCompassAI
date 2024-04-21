@@ -57,21 +57,7 @@ window.addEventListener('scroll', function() {
     }
 });
 
-function openAnimalWelfare(){
-    window.location.href = "info1.html";
-}
-function openOrphanage(){
-    window.location.href = "info2.html";
-}
-function openHomelessness(){
-    window.location.href = "info3.html";
-}
-function openEnvironment(){
-    window.location.href = "info4.html";
-}
-function openPoverty(){
-    window.location.href = "info5.html";
-}
+
 
 
 function back(){
